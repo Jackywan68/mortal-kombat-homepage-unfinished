@@ -1,0 +1,209 @@
+.mk1-video{
+    width: 100%;
+    
+}
+.deep-background{
+    position: relative;
+    background-color: black;
+    height: 1000px;
+   z-index: 1;
+}
+.deep-picture{
+    position: absolute;
+    z-index: -2;
+}
+.section-1{
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a-tag{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 400;
+    
+}
+.navbar{
+    display: flex;
+}
+.left{
+   
+    
+}
+.btn-group{
+    display: flex;
+    width: 100%;
+    
+}
+.button {
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 30% 100%);
+    padding: 5px 25px;
+    margin: 5px;
+    margin-top: 30px;
+    line-height: 1.6;
+    width: 200px;
+    background-color: rgba(151, 181, 225, .075);
+    
+    
+  
+    
+    
+    border: none;
+    
+  }
+.button:hover{
+    background-color: rgba(151, 181, 225, .4);
+}
+.back-video{
+    position: absolute;
+    top: 0;
+    min-width: 100%;
+    
+    z-index: -1;
+    
+}
+.first-mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 58%;
+    left: 50%;
+    gap: 20px;
+   
+}
+.middle-logo{
+    width: 40vw;
+   
+}
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.show{
+    opacity: 1;
+}
+
+
+.buy-btn{
+    padding-top: 10px;
+    font-size: 1.375vw;
+    color: white;
+    border: none;
+    letter-spacing: .075vw;
+    padding: 0.625vw 2.75vw;
+    clip-path: polygon(0% 50%,11% 0%,89% 0%,100% 50%,89% 100%,11% 100%);
+    background: radial-gradient(circle,rgb(50,98,180) 0%,rgb(17,53,139) 100%);
+    
+}
+
+.section-2{
+    background-image: url(assets/background-section2.jpg);  
+    
+   
+    
+}
+.content{
+    align-items: center;
+    padding: 0 10%;
+    padding: 200px;
+}
+.second-des{
+    text-align: center;
+    max-width: 40vw;
+    text-align: center;
+    color: #223e6b;
+}
+.character{
+    width: 28vw;
+    margin-left: 2vw;
+}
+.liu-kang{
+    width: 100%;
+    
+}
+.second-whole{
+    display: flex;
+    
+}
+.mk1-logo2{
+    max-width: 13vw;
+}
+.background{
+    position: absolute;
+    z-index: -1;
+    min-width: 100%;
+}
+.title{
+    color: white;
+}
+.third-des{
+    color: white;
+}
+.other{
+    color: #ffecc5;
+}
+.preview{
+    clip-path: polygon(8% 0, 100% 0%, 92% 100%, 0% 100%);
+    width: auto;
+    border: 20px;
+}
+.s3-video{
+    padding-top: 30px;
+}
+.s3-content{
+    padding: 140px;
+}
+.section-4{
+    background-image: url(assets/background-section2.jpg);  
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    
+   
+    
+}
+.s4-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo-inside{
+    position: absolute;
+    padding-top: 75px;
+    width: 18%;
+}
+.logo-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-5{
+    background-color: #0e1a2d;
+    padding-top: 120px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.small-logo{
+   width: 5%;
+}
+.logo-group{
+    display: flex;
+    justify-content: space-around;
+}
+.long-logo{
+    width: 10%;
+}
+.s5-des{
+    color: #b2c1d8;
+}
